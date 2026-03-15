@@ -1,0 +1,17 @@
+manifest:
+  defaults:
+    revision: v0.3
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: MogmaProducts
+      url-base: https://github.com/MogmaProducts
+  projects:
+    - name: zmk
+      remote: zmkfirmware
+      import: app/west.yml
+    - name: loofie-focusgrow-zmk-module
+      remote: MogmaProducts
+      revision: main
+  self:
+    path: config
