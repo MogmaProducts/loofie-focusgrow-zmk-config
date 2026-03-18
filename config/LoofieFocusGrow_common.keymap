@@ -3,10 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    chosen {
-        zmk,physical-layout = &physical_layout_us;
-    };
-
     combos {
         compatible = "zmk,combos";
 

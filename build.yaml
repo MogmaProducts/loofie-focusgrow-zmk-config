@@ -20,6 +20,13 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: LoofieFocusGrow
+    shield: LoofieFocusGrow_US
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: LoofieFocusGrow_US
+
+  - board: seeeduino_xiao_ble
+    shield: LoofieFocusGrow_ISO
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: LoofieFocusGrow_ISO
